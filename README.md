@@ -115,18 +115,33 @@ http://localhost:3000
 4. **Content Discovery:** Explore posts based on tags and popularity.  
 
 ---
+---
 
 ## 📝 **Contributing:**  
 We appreciate your interest in contributing to HushTag!  
-- Fork the repository  
-- Create a new branch:  
-  ```bash
+Follow these steps to contribute to the project:  
+
+1. **Fork the Repository:**  
+   Click the "Fork" button on the top right of the repository page to create a copy of this repository under your GitHub account.  
+
+2. **Clone Your Fork:**  
+   Clone your forked repository to your local machine.  
+   ```bash
+   git clone https://github.com/your-username/HushTag.git
+   cd HushTag
+```
+### **Create a New Branch:**  
+Make sure to create a new branch before making changes.  
+```bash
 git checkout -b feature/my-new-feature
 ```
-- Commit your changes:
+**Make Your Changes:**
+Implement your new feature, bug fix, or enhancement.
 
+- **Commit Your Changes:**
+Write a meaningful commit message explaining your changes.
 ```bash
-git commit -m "Add new feature"
+git commit -m "Add my new feature"
 ```
 
 - Push the branch:
@@ -134,6 +149,8 @@ git commit -m "Add new feature"
 git push origin feature/my-new-feature
 ```
 - Open a Pull Request
+- Navigate to the original repository and click on the **"Compare & pull request"** button.
+Fill in the PR template and submit your pull request for review.
 
 **For more details, check the CONTRIBUTING.md file.**
 ---
